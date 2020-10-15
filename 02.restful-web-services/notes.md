@@ -26,10 +26,17 @@ class com.in28minutes.rest.webservices.restfulwebservices.HelloWorldBean
 ## Questions to Answer
 
 - What is dispatcher servlet?
+ answer sk: It is front controller. all request from web goes to dispatcher servlet. dispatcher servlet knows all the mapping which is configured in the applications. dispatch servlet will tell do this jackson convesion etc ..here message converter is jackson
+ 
 - Who is configuring dispatcher servlet?
+anser sk :spring boot autoconfiguration
+
 - What does dispatcher servlet do? 
-- How does the HelloWorldBean object get converted to JSON?
+- How does the HelloWorldBean object get converted to JSON? 
+anser sk :spring boot autoconfiguration
+
 - Who is configuring the error mapping?
+anser sk :spring boot autoconfiguration
 
 - Mapping servlet: 'dispatcherServlet' to [/]
 
